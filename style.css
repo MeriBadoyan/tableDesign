@@ -39,14 +39,20 @@ table {
     padding: 10px ;
 }
 
+tbody td {
+    font-weight: 600;
+}
+
 tr{
     color: #317a83;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 td{
     text-align: center;
     padding: 10px;
 }
+
 tr:nth-child(even) {
     background-color: #daf2f4;
     border: 1px solid #daf2f4;
@@ -63,8 +69,4 @@ tr:nth-child(even) {
 .comments{
     max-width: 310px;
     text-align: left;
-}
-
-tbody td {
-    font-weight: 600;
 }
